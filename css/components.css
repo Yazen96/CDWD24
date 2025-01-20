@@ -1,0 +1,82 @@
+/* Service Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Uniform scaling */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2563eb; /* Accent color */
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #4b5563; /* Muted grey */
+}
+
+/* Cart Section */
+#cart {
+    border: 1px solid #e5e7eb; /* Light grey border */
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #f9fafb; /* Slightly off-white */
+    color: #2a2e35;
+}
+
+#cart p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#cart .btn-danger {
+    background-color: #dc2626; /* Red */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#cart .btn-danger:hover {
+    background-color: #b91c1c; /* Darker red */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+}

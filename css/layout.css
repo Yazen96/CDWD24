@@ -1,0 +1,68 @@
+/* Header */
+header {
+    background: linear-gradient(to right, #2563eb, #1e3a8a); /* Professional gradient */
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-bottom: 4px solid #1e3a8a;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e3a8a; /* Dark blue */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #ffffff !important;
+    margin-right: 1.5rem;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #a3c0ff !important; /* Light blue hover */
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a; /* Match navbar */
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
