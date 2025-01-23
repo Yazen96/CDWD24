@@ -25,6 +25,13 @@ p {
     margin-bottom: 1.5rem;
 }
 
+#welcomeDescription {
+    color: #ffffff; /* White color for high contrast on blue */
+    font-size: 1.2rem; /* Slightly larger for emphasis */
+    font-weight: bold; /* Make it stand out further */
+}
+
+
 /* Buttons */
 button, .btn-primary {
     font-family: 'Inter', sans-serif;
